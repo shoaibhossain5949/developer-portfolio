@@ -8,6 +8,10 @@ body {
     color: #FD6E0A;
 }
 
+.nam-title {
+    font-size: 45px;
+}
+
 .but-primary {
     border-radius: 5px;
     background: #FD6E0A;
@@ -16,6 +20,25 @@ body {
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+}
+
+.section-title {
+    color: var(#181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section-des {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
 }
 
 /* 1 nav related styles */
@@ -48,16 +71,54 @@ nav a {
     text-decoration: none;
     color: #474747
 }
-.header{
+
+.header {
     background: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 30px 150px ;
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
-    
+
 }
-.banner .p-pic{
+
+.b-content {
+    max-width: 500px;
+}
+
+.banner .p-pic {
     width: 500px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: var(--Dark-02, #474747);
+    margin-bottom: 0px;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.b-dis {
+    margin-top: 0px;
+}
+
+/* main section design */
+
+/* About section design */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
 }
