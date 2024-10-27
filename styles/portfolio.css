@@ -28,7 +28,7 @@ body {
     font-size: 35px;
     font-weight: 700;
     line-height: normal;
-    
+
 }
 
 .section-des {
@@ -189,13 +189,14 @@ main {
 }
 
 .resume-item-title {
-    color:  #474747;
+    color: #474747;
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 10px;
 
 }
-.resume-item-inst{
+
+.resume-item-inst {
     margin-bottom: 10px;
     margin-top: 0;
 }
@@ -205,10 +206,24 @@ main {
     color: #757575;
 
 }
-.resume-col hr{
+
+.resume-col hr {
     margin: 30px;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin: 50px;
+}
+
+/* footer style  */
+
+footer {
+    display: flex;
+    background: #FFF8F3;
+    margin-top: 100px;
+    width: 1600px;
+    height: 780px;
+    flex-shrink: 0;
+    padding: 130px 200px;
 }
