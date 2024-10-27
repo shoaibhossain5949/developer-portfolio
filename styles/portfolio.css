@@ -232,6 +232,9 @@ footer {
 .footer-colum {
     width: 50%;
 }
+.socil-section a{
+    margin-right: 25px;
+}
 
 .contact input[type="text"], .contact input[type="email"],
 textarea {
@@ -244,7 +247,4 @@ textarea {
     border: 0;
     width: 100%;
 
-}
-.socil-section{
-    margin-right: 25px;
 }
